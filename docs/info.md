@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A simple one-stage RISC-V CPU.
+This CPU was created with reference to the lecture: https://eeic-vlsi.github.io/2025/.
+Instructions are 32-bit, while the input bus is 8-bit, so each instruction is loaded over four clock cycles.
 
 ## How to test
 
-Explain how to use your project
+Very simple instructions are written in the testbench to verify that the calculations are correct.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The chip is not being shipped at this time.
